@@ -1,0 +1,103 @@
+.pageHome {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .Nav {
+    height: 100%;
+    max-width: 355px;
+    min-width: 275px;
+    overflow: auto;
+    background: #343131;
+
+    .Nav_Title {
+      width: 100%;
+      height: 60px;
+      background-color: #2980b9;
+      text-align: center;
+      color: #fcfcfc;
+      font-size: 22px;
+      font-weight: 700;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Nav_content {
+      color: #55a5d9;
+      width: 100%;
+      height: 35px;
+      background: #343131;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 15px;
+      padding-left: 15px;
+    }
+
+    &::-webkit-scrollbar {
+      /*滚动条整体样式*/
+      width: 6px; /*高宽分别对应横竖滚动条的尺寸*/
+      height: 1px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      /*滚动条里面小方块*/
+      border-radius: 10px;
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+      background: #c1bfbf;
+    }
+
+    &::-webkit-scrollbar-track {
+      /*滚动条里面轨道*/
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background: #ededed;
+    }
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      /*滚动条整体样式*/
+      width: 6px; /*高宽分别对应横竖滚动条的尺寸*/
+      height: 1px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      /*滚动条里面小方块*/
+      border-radius: 10px;
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+      background: #c1bfbf;
+    }
+
+    &::-webkit-scrollbar-track {
+      /*滚动条里面轨道*/
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background: #ededed;
+    }
+
+    .title {
+      font-size: 30px;
+      text-align: center;
+      height: 75px;
+      width: 100%;
+      font-weight: 800;
+      letter-spacing: 4px;
+      line-height: 75px;
+      border-bottom: 1px solid #e1e4e5;
+      margin-bottom: 15px;
+    }
+  }
+}
+

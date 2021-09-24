@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('./assets/iconfont/iconfont.woff2?t=1632452413847') format('woff2'),
+  url('./assets/iconfont/iconfont.woff?t=1632452413847') format('woff'),
+  url('./assets/iconfont/iconfont.ttf?t=1632452413847') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hljs ul {
+  list-style: decimal;
+  margin: 0 0 0 40px !important;
+  padding: 0
+}
+
+.hljs li {
+  list-style: decimal-leading-zero;
+  border-left: 1px solid #111 !important;
+  padding: 2px 5px !important;
+  margin: 0 !important;
+  line-height: 14px;
+  width: 100%;
+  box-sizing: border-box
+}
+
+.hljs li:nth-of-type(even) {
+  background-color: rgba(255, 255, 255, .015);
+  color: inherit
+}

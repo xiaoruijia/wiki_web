@@ -1,0 +1,65 @@
+// 基础颜色
+$bgblack:rgb(26, 26, 26);
+$bglogin: rgba(26, 26, 26,0.8);
+
+
+// 按钮颜色
+$white:#fff;
+$blue:#267ddb;
+$green:#17a800;
+$red:#C03639;
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{
+  border-radius: 2px;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, .1);
+  background-color: #c8c8c8;
+}
+
+@mixin colorBtn($color) {
+  background: $color;
+
+  &:hover {
+    color: $color;
+
+    &:before,
+    &:after {
+      background: $color;
+    }
+  }
+}
+
+.blue-btn {
+  @include colorBtn($blue)
+}
+
+.blackbtn {
+  @include colorBtn($bglogin)
+}
+
+
+
+:export {
+  bgblack: $bgblack;
+  bglogin: $bglogin;
+  white: $white;
+  blue:$blue;
+  green: $green;
+}

@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2673038 */
+  src: url('iconfont.woff2?t=1632452413847') format('woff2'),
+       url('iconfont.woff?t=1632452413847') format('woff'),
+       url('iconfont.ttf?t=1632452413847') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jia:before {
+  content: "\e60c";
+}
+
+.icon-jian:before {
+  content: "\e60d";
+}
+
+.icon-jia-xianxingfangkuang:before {
+  content: "\e8de";
+}
+
+.icon-jian-xianxingfangkuang:before {
+  content: "\e8e2";
+}
+
+.icon-checkbox-plus:before {
+  content: "\ea6e";
+}
+
+.icon-xiaozhuncalibration:before {
+  content: "\e753";
+}
+
+.icon-jiantou9:before {
+  content: "\e60b";
+}
+
+.icon-xiajiantou:before {
+  content: "\e63c";
+}
+
+.icon-rotatexuanzhuan2:before {
+  content: "\e6e2";
+}
+
+.icon-rotatexuanzhuan:before {
+  content: "\e6eb";
+}
+
+.icon-zhankai:before {
+  content: "\e6c0";
+}
+
+.icon-xuanzhuan1:before {
+  content: "\e652";
+}
+
+.icon-zhuyefangzi:before {
+  content: "\e70a";
+}
+
+.icon-geren:before {
+  content: "\e646";
+}
+
+.icon-home:before {
+  content: "\e612";
+}
+
+.icon-shezhi:before {
+  content: "\e604";
+}
+
+.icon-weibiaoti-:before {
+  content: "\e60f";
+}
+
+.icon-zuixiaohua:before {
+  content: "\e669";
+}
+
+.icon-guanbi1:before {
+  content: "\e616";
+}
+
+.icon-window-max_line:before {
+  content: "\e695";
+}
+
+.icon-fangzi:before {
+  content: "\e605";
+}
+
+.icon-geren1:before {
+  content: "\e603";
+}
+
+.icon-zuixiaohua1:before {
+  content: "\e650";
+}
+
+.icon-zuidahua:before {
+  content: "\e651";
+}
+
+.icon-shezhi1:before {
+  content: "\e645";
+}
+
+.icon-guanbi5:before {
+  content: "\e6c9";
+}
+
+.icon-zuixiaohuaxi:before {
+  content: "\e64c";
+}
+
+.icon-zuidahuaxi:before {
+  content: "\e64d";
+}
+
+.icon-zuixiaohua2:before {
+  content: "\e644";
+}
+
+.icon-zuidahua1:before {
+  content: "\e647";
+}
+
