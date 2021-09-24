@@ -94,7 +94,7 @@ const Index = () => {
     return (
         <div className="pageHome">
             <div className="Nav">
-                <div className="Nav_Title">FACEGOOD</div>
+                <div className="Nav_Title">WIKI</div>
                 <div className="Nav_content">CONTENTS:</div>
                 {oneMenu.map(menuItem => {
                     return <Menu name={menuItem.title} key={menuItem.id} click={() => {
