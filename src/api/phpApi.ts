@@ -1,7 +1,6 @@
 import axios from "axios"
 //远程Url用第一个，第二个解决开发的跨域问题
-export const serviceUrl = "https://api.facegood.cc/"
-export const baseUrl = "http://192.168.3.87/"
+export const baseUrl = "localhost:8000"
 
 let URL = baseUrl
 export const categoryApi = () => {
